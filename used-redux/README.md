@@ -3,7 +3,7 @@ dispatch
  1) 이전 state값과 사용자가 전달한 action객체를 조합해서 새로운 state를 리턴한다.
  2) 새로운 state 리턴한 이후에 구독(subscribe)중인 render 함수를 호출한다.
 
-2. subscript 초기에 rendering을 하기 위한 함수를 연결해준다.
+2. subscribe 초기에 rendering을 하기 위한 함수를 연결해준다.
 
 3. render
  1) store에서 getState값을 얻어와서 렌더링에 필요한 값을 바인딩해준다.
